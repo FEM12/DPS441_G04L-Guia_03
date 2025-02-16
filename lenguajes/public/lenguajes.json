@@ -1,0 +1,92 @@
+[
+  {
+    "id":1,
+    "img":{"src":"img/Js.png","alt":"Javascript Logo"},
+    "nombre": "Javascript",
+    "creador": "Brendan Eich",
+    "anio": 1995,
+    "paradigma": ["Multiparadigma", "Orientado a objetos", "Funcional"],
+    "uso_principal": "Desarrollo web"
+  },
+  {
+    "id":2,
+    "img":{"src":"img/Py.png","alt":"Python Logo"},
+    "nombre": "Python",
+    "creador": "Guido van Rossum",
+    "anio": 1991,
+    "paradigma": ["Multiparadigma", "Orientado a objetos", "Imperativo", "Funcional"],
+    "uso_principal": "Ciencia de datos, desarrollo web, automatización"
+  },
+  {
+    "id":3,
+    "img":{"src":"img/Java.png","alt":"Java Logo"},
+    "nombre": "Java",
+    "creador": "James Gosling",
+    "anio": 1995,
+    "paradigma": ["Orientado a objetos"],
+    "uso_principal": "Desarrollo de aplicaciones empresariales y móviles"
+  },
+  {
+    "id":4,
+    "img":{"src":"img/C.png","alt":"C Logo"},
+    "nombre": "C",
+    "creador": "Dennis Ritchie",
+    "anio": 1972,
+    "paradigma": ["Imperativo", "Procedural"],
+    "uso_principal": "Sistemas operativos, software embebido"
+  },
+  {
+    "id":5,
+    "img":{"src":"img/C-Plusplus.png","alt":"C++ Logo"},
+    "nombre": "C++",
+    "creador": "Bjarne Stroustrup",
+    "anio": 1985,
+    "paradigma": ["Multiparadigma", "Orientado a objetos", "Procedural"],
+    "uso_principal": "Videojuegos, software de alto rendimiento"
+  },
+  {
+    "id":6,
+    "img":{"src":"img/C-Sharp.png","alt":"C# Logo"},
+    "nombre": "C#",
+    "creador": "Microsoft",
+    "anio": 2000,
+    "paradigma": ["Orientado a objetos"],
+    "uso_principal": "Aplicaciones empresariales y videojuegos con Unity"
+  },
+  {
+    "id":7,
+    "img":{"src":"img/Php.png","alt":"PHP Logo"},
+    "nombre": "PHP",
+    "creador": "Rasmus Lerdorf",
+    "anio": 1995,
+    "paradigma": ["Imperativo", "Orientado a objetos"],
+    "uso_principal": "Desarrollo web backend"
+  },
+  {
+    "id":8,
+    "img":{"src":"img/Swift.png","alt":"Swift Logo"},
+    "nombre": "Swift",
+    "creador": "Apple Inc.",
+    "anio": 2014,
+    "paradigma": ["Orientado a objetos", "Funcional"],
+    "uso_principal": "Desarrollo de aplicaciones iOS y macOS"
+  },
+  {
+    "id":9,
+    "img":{"src":"img/Go.png","alt":"Go Logo"},
+    "nombre": "Go",
+    "creador": "Google",
+    "anio": 2009,
+    "paradigma": ["Concurrente", "Imperativo"],
+    "uso_principal": "Sistemas distribuidos y backend"
+  },
+  {
+    "id":10,
+    "img":{"src":"img/Rust.png","alt":"Rust Logo"},
+    "nombre": "Rust",
+    "creador": "Mozilla Research",
+    "anio": 2010,
+    "paradigma": ["Multiparadigma", "Orientado a objetos", "Funcional"],
+    "uso_principal": "Desarrollo seguro y de alto rendimiento"
+  }
+]

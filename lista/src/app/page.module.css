@@ -28,18 +28,15 @@
 }
 
 .main {
-  background-color: #61dafb;
-  min-height: 100vh;
+  background-color: #000000;
+  height: 100vh;
+  width: 100vw;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
-
-.App{
-  text-align: center;
+  padding: 10px;
 }
 
 .App-logo{
@@ -51,22 +48,97 @@
   .App-logo{animation: App-logo-spin infinite 20s linear;}
 }
 
-.App-link{
-  color: #61dafb;
-}
-
 @keyframes App-logo-spin {
   from{transform: rotate(0deg);}
   to{transform: rotate(360deg);}
 }
 
-.form_input { height: 40px; width: 500px; font-size: 20px; border-radius: 5%; display: flex; vertical-align: auto; } 
+.form{width: 100%;}
 
-.form_button { cursor: pointer; display: inline-block; text-align: center; text-decoration: none; height: 40px; width: 500px; margin: 2px 0; border: solid 1px transparent; border-radius: 4px; padding: 0.5em 1em; color: #ffffff; background-color: darkgreen; } 
+.container{
+  width: 100%;
+  display: flex;
+  gap: 10px;
+}
 
-.Titulo3 { margin: 0; } .list { display: flex; margin: 5px; flex-direction: row; align-items: flex-end; } 
+.form_input {
+  background-color: #696969;
+  color: white;
+  height: 40px; 
+  width: 100%;
+  padding-left: 10px; 
+  font-size: 15px; 
+  border-radius: 5px;
+  border: none;   
+  outline: none;
+}
 
-.btn_delete { cursor: pointer; display: inline-block; text-align: center; text-decoration: none; border: solid 1px transparent; border-radius: 4px; color: #ffffff; background-color: red; height: 30px; width: 30px; } 
+.form_input:last-child{
+  text-align: center;
+}
+
+.form_input::placeholder{color: white;}
+
+.form_button {
+  cursor: pointer;  
+  height: 40px; 
+  width: 100%; 
+  font-size: 15px; 
+  border: none; 
+  border-radius: 5px; 
+  color: #ffffff; 
+  background-color: darkgreen; 
+}
+
+.table_container{
+  background-color: #1a1a1a77;
+  height: 100%;
+  width: 100%;
+  margin-top: 10px;
+  border-radius: 5px;
+  overflow: auto;
+}
+
+.table_container::-webkit-scrollbar{width: 0;}
+
+.table{
+  width:100%;
+  font-size: 15px;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.table tr{
+  height: 40px;
+}
+
+.table thead{background-color: #696969;}
+
+.table thead tr th,
+.table tbody tr td{
+  border: 1px solid black;
+  text-align: center;
+}
+
+.table tfoot{
+  background-color: #696969;
+}
+
+.table tfoot tr td{text-align: center;}
+
+.btn_delete { 
+  cursor: pointer; 
+   border: none; 
+   border-radius: 5px; 
+   color: #ffffff; 
+   background-color: rgb(255, 0, 0); 
+   height: 30px;
+   padding: 5px;
+}
+
+.main{
+  user-select: none;
+}
 
 .main ol {
   font-family: var(--font-geist-mono);
